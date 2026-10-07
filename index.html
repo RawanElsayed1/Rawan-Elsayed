@@ -1,0 +1,1440 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rawan El Sayed Mohamed | AI & Data Science Student | Aspiring AI Engineer</title>
+  <meta name="description" content="Portfolio of Rawan El Sayed Mohamed, a Computer Science student and aspiring AI Engineer focused on Artificial Intelligence, Machine Learning, Computer Vision, and Data Science.">
+  <meta name="author" content="Rawan El Sayed Mohamed">
+  <meta name="keywords" content="Rawan El Sayed Mohamed, AI Engineer, Computer Science Student, Machine Learning, Deep Learning, Computer Vision, Data Science, Python, Scikit-learn, SAM, OpenCV">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rawan El Sayed Mohamed | AI & Data Science Student | Aspiring AI Engineer">
+  <meta property="og:description" content="Computer Science student and aspiring AI Engineer passionate about building practical solutions with AI, ML, Computer Vision, and Data Science.">
+  
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Neural Canvas Background -->
+  <canvas id="neural-canvas" aria-hidden="true"></canvas>
+
+  <!-- Navigation -->
+  <header class="header" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-logo" aria-label="Rawan El Sayed Mohamed Home">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-name">Rawan</span>
+        <span class="logo-dot">.ai</span>
+        <span class="logo-bracket">&gt;</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#journey" class="nav-link">Journey</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions (Theme Toggle & Mobile Toggle) -->
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle light and dark mode" title="Toggle Theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content reveal">
+          <div class="status-pill">
+            <span class="status-indicator"></span>
+            <span>Aspiring AI Engineer • Open for Internships & Projects</span>
+          </div>
+
+          <h1 class="hero-name">
+            Rawan <span class="gradient-text">El Sayed</span> Mohamed
+          </h1>
+
+          <p class="hero-title">
+            <span class="title-highlight">AI &amp; Data Science Student</span>
+            <span class="title-divider">|</span>
+            <span class="title-highlight">Aspiring AI Engineer</span>
+          </p>
+
+          <p class="hero-intro">
+            Computer Science student and aspiring AI Engineer passionate about building practical solutions with Artificial Intelligence, Machine Learning, Computer Vision, and Data Science. I turn what I learn into hands-on projects while continuously developing my technical skills.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary" id="hero-view-projects">
+              <span>View Projects</span>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary" id="hero-contact-me">
+              <span>Contact Me</span>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Quick meta badges -->
+          <div class="hero-meta-badges">
+            <div class="meta-badge">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>Sharqia, Egypt</span>
+            </div>
+            <div class="meta-badge">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+              <span>Elsalhia Elgedida University</span>
+            </div>
+            <div class="meta-badge">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+              </svg>
+              <span>DEPI Data Science Trainee</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Decorative AI Visual Component & Hero Profile Area -->
+        <div class="hero-visual reveal">
+          <div class="ai-orb-wrapper">
+            <div class="ai-orb-glow"></div>
+            
+            <!-- Hero Profile Photo Area -->
+            <div class="hero-profile-container">
+              <div class="profile-photo-frame hero-profile-frame">
+                <img src="assets/images/profile.jpg" 
+                     alt="Rawan El Sayed Mohamed - Profile Photo" 
+                     class="profile-img"
+                     loading="eager"
+                     onerror="this.classList.add('is-hidden'); var ph = this.parentElement.querySelector('.profile-photo-placeholder'); if(ph) ph.classList.remove('is-hidden');"
+                     onload="this.classList.remove('is-hidden'); var ph = this.parentElement.querySelector('.profile-photo-placeholder'); if(ph) ph.classList.add('is-hidden');">
+                <div class="profile-photo-placeholder is-hidden">
+                  <div class="placeholder-graphic">
+                    <svg viewBox="0 0 100 100" class="avatar-svg" aria-hidden="true">
+                      <circle cx="50" cy="50" r="48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 4" class="rotating-ring"></circle>
+                      <circle cx="50" cy="38" r="18" fill="none" stroke="currentColor" stroke-width="2.5"></circle>
+                      <path d="M22 80 C22 62, 35 56, 50 56 C65 56, 78 62, 78 80" fill="none" stroke="currentColor" stroke-width="2.5"></path>
+                      <circle cx="50" cy="38" r="6" class="inner-dot"></circle>
+                    </svg>
+                  </div>
+                  <div class="placeholder-tag">[ Professional Photo ]</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- AI Code Pipeline Card -->
+            <div class="ai-circuit-card">
+              <div class="card-header-bar">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span class="card-file-label">model_pipeline.py</span>
+              </div>
+              <div class="code-preview">
+                <div class="code-line"><span class="token-keyword">import</span> <span class="token-var">numpy</span> <span class="token-keyword">as</span> <span class="token-var">np</span></div>
+                <div class="code-line"><span class="token-keyword">import</span> <span class="token-var">pandas</span> <span class="token-keyword">as</span> <span class="token-var">pd</span></div>
+                <div class="code-line"><span class="token-keyword">from</span> <span class="token-var">sklearn.model_selection</span> <span class="token-keyword">import</span> <span class="token-func">train_test_split</span></div>
+                <div class="code-line"><span class="token-keyword">from</span> <span class="token-var">segment_anything</span> <span class="token-keyword">import</span> <span class="token-class">SamPredictor</span></div>
+                <div class="code-line empty"></div>
+                <div class="code-line"><span class="token-comment"># Initialize AI Architecture</span></div>
+                <div class="code-line"><span class="token-var">engineer</span> = <span class="token-class">AIEngineer</span>(</div>
+                <div class="code-line indent"><span class="token-param">name</span>=<span class="token-string">"Rawan El Sayed"</span>,</div>
+                <div class="code-line indent"><span class="token-param">focus</span>=[<span class="token-string">"AI & Data Science"</span>, <span class="token-string">"ML"</span>, <span class="token-string">"CV"</span>],</div>
+                <div class="code-line indent"><span class="token-param">status</span>=<span class="token-string">"Active Learning & Building"</span></div>
+                <div class="code-line">)</div>
+              </div>
+
+              <!-- Interactive Floating Data Nodes -->
+              <div class="floating-tech-pill pill-1">
+                <span class="tech-icon-dot"></span>
+                <span>Scikit-learn</span>
+              </div>
+              <div class="floating-tech-pill pill-2">
+                <span class="tech-icon-dot cyan"></span>
+                <span>SAM (Computer Vision)</span>
+              </div>
+              <div class="floating-tech-pill pill-3">
+                <span class="tech-icon-dot purple"></span>
+                <span>Python & Data Science</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Background & Academic Foundation</h2>
+          <p class="section-subtitle">Bridging theoretical computer science with hands-on AI implementation</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Profile Card with Photo & Fallback Placeholder -->
+          <div class="about-profile-card reveal">
+            <div class="profile-photo-container">
+              <div class="profile-photo-frame">
+                <img src="assets/images/profile.jpg" 
+                     alt="Rawan El Sayed Mohamed" 
+                     class="profile-img"
+                     loading="lazy"
+                     onerror="this.classList.add('is-hidden'); var ph = this.parentElement.querySelector('.profile-photo-placeholder'); if(ph) ph.classList.remove('is-hidden');"
+                     onload="this.classList.remove('is-hidden'); var ph = this.parentElement.querySelector('.profile-photo-placeholder'); if(ph) ph.classList.add('is-hidden');">
+                <div class="profile-photo-placeholder is-hidden">
+                  <div class="placeholder-graphic">
+                    <svg viewBox="0 0 100 100" class="avatar-svg" aria-hidden="true">
+                      <circle cx="50" cy="50" r="48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 4" class="rotating-ring"></circle>
+                      <circle cx="50" cy="38" r="18" fill="none" stroke="currentColor" stroke-width="2.5"></circle>
+                      <path d="M22 80 C22 62, 35 56, 50 56 C65 56, 78 62, 78 80" fill="none" stroke="currentColor" stroke-width="2.5"></path>
+                      <circle cx="50" cy="38" r="6" class="inner-dot"></circle>
+                    </svg>
+                  </div>
+                  <div class="placeholder-tag">[ Professional Photo ]</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="profile-card-details">
+              <h3 class="profile-card-name">Rawan El Sayed Mohamed</h3>
+              <p class="profile-card-role">AI &amp; Data Science Student | Aspiring AI Engineer</p>
+              <div class="profile-card-badge">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>Sharqia, Egypt</span>
+              </div>
+              <div class="profile-card-badge">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+                <span>Elsalhia Elgedida University</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Polished About Me Text Content -->
+          <div class="about-text-content reveal">
+            <p class="lead-text">
+              I am a Computer Science undergraduate student at Elsalhia Elgedida University with a strong interest in Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, and Data Science.
+            </p>
+            <p>
+              I have built a solid foundation in Python, Java, Object-Oriented Programming, Data Structures and Algorithms, databases, and core Computer Science concepts. I enjoy combining theoretical knowledge with practical implementation through hands-on projects and technical training.
+            </p>
+            <p>
+              My practical experience includes developing a Car Price Prediction project using Python and Scikit-learn, as well as a Clothes Image Segmentation project using Meta's Segment Anything Model (SAM), OpenCV, and Google Colab.
+            </p>
+            <p>
+              I believe that effective learning comes from understanding concepts and applying them to real problems. My current focus is expanding my Data Science knowledge while strengthening my Machine Learning, Deep Learning, and Computer Vision skills.
+            </p>
+            <p>
+              My long-term goal is to grow into a professional AI Engineer capable of developing intelligent, data-driven solutions that create practical impact.
+            </p>
+
+            <div class="about-highlights-grid">
+              <div class="highlight-item">
+                <span class="highlight-number">01</span>
+                <div>
+                  <h4 class="highlight-title">Core CS Foundation</h4>
+                  <p class="highlight-desc">Strong grounding in OOP, Algorithms & Database Systems</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-number">02</span>
+                <div>
+                  <h4 class="highlight-title">Applied AI & ML</h4>
+                  <p class="highlight-desc">Hands-on model training, preprocessing & evaluation</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-number">03</span>
+                <div>
+                  <h4 class="highlight-title">Computer Vision</h4>
+                  <p class="highlight-desc">Prompted segmentation with SAM & image pipelines</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-number">04</span>
+                <div>
+                  <h4 class="highlight-title">Active Growth</h4>
+                  <p class="highlight-desc">Enrolled in DEPI Data Science and continuous learning</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNICAL SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Technical Skills</span>
+          <h2 class="section-title">Core Competencies & Toolset</h2>
+          <p class="section-subtitle">Structured by domains of knowledge and practical application</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- CATEGORY 1: Programming -->
+          <div class="skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div>
+                <span class="category-label">Category 01</span>
+                <h3 class="category-title">Programming</h3>
+              </div>
+            </div>
+            <ul class="skills-tags-list">
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Python</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Java</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>OOP</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- CATEGORY 2: Artificial Intelligence & Machine Learning -->
+          <div class="skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M12 2a4 4 0 0 1 4 4c0 1.5-.8 2.8-2 3.5V11a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V9.5C4.8 8.8 4 7.5 4 6a4 4 0 0 1 8-4z"></path>
+                  <path d="M12 13v8"></path>
+                  <path d="M8 21h8"></path>
+                  <circle cx="18" cy="16" r="3"></circle>
+                  <circle cx="6" cy="16" r="3"></circle>
+                </svg>
+              </div>
+              <div>
+                <span class="category-label">Category 02</span>
+                <h3 class="category-title">AI & Machine Learning</h3>
+              </div>
+            </div>
+            <ul class="skills-tags-list">
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Machine Learning</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Deep Learning Fundamentals</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Scikit-learn</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Data Preprocessing</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Model Evaluation</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- CATEGORY 3: Data Science -->
+          <div class="skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="18" y1="20" x2="18" y2="10"></line>
+                  <line x1="12" y1="20" x2="12" y2="4"></line>
+                  <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+              </div>
+              <div>
+                <span class="category-label">Category 03</span>
+                <h3 class="category-title">Data Science</h3>
+              </div>
+            </div>
+            <ul class="skills-tags-list">
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Data Analysis</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Pandas</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>NumPy</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Statistics & Probability</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Data Visualization</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- CATEGORY 4: Computer Vision -->
+          <div class="skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+              </div>
+              <div>
+                <span class="category-label">Category 04</span>
+                <h3 class="category-title">Computer Vision</h3>
+              </div>
+            </div>
+            <ul class="skills-tags-list">
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>OpenCV</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Image Processing</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Image Segmentation</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Segment Anything Model (SAM)</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- CATEGORY 5: Databases -->
+          <div class="skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </div>
+              <div>
+                <span class="category-label">Category 05</span>
+                <h3 class="category-title">Databases</h3>
+              </div>
+            </div>
+            <ul class="skills-tags-list">
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>SQL</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>MySQL</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- CATEGORY 6: Tools & Platforms -->
+          <div class="skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <div>
+                <span class="category-label">Category 06</span>
+                <h3 class="category-title">Tools & Platforms</h3>
+              </div>
+            </div>
+            <ul class="skills-tags-list">
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Git & GitHub</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Google Colab</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Jupyter Notebook</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>VS Code</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- CATEGORY 7: Computer Science -->
+          <div class="skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                  <rect x="9" y="9" width="6" height="6"></rect>
+                  <line x1="9" y1="1" x2="9" y2="4"></line>
+                  <line x1="15" y1="1" x2="15" y2="4"></line>
+                  <line x1="9" y1="20" x2="9" y2="23"></line>
+                  <line x1="15" y1="20" x2="15" y2="23"></line>
+                  <line x1="20" y1="9" x2="23" y2="9"></line>
+                  <line x1="20" y1="14" x2="23" y2="14"></line>
+                  <line x1="1" y1="9" x2="4" y2="9"></line>
+                  <line x1="1" y1="14" x2="4" y2="14"></line>
+                </svg>
+              </div>
+              <div>
+                <span class="category-label">Category 07</span>
+                <h3 class="category-title">Computer Science</h3>
+              </div>
+            </div>
+            <ul class="skills-tags-list">
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Data Structures & Algorithms</span>
+              </li>
+              <li class="skill-tag">
+                <span class="tag-bullet"></span>
+                <span>Computer Science Fundamentals</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Featured Projects</span>
+          <h2 class="section-title">Practical AI & Machine Learning Work</h2>
+          <p class="section-subtitle">Real-world implementations demonstrating model development, computer vision, and pipeline building</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- PROJECT 01 -->
+          <article class="project-card reveal" id="project-car-price">
+            <div class="project-card-banner">
+              <div class="project-image-container" onclick="openImageModal('assets/images/projects/car-price-prediction.png', 'Car Price Prediction — Machine Learning Project')">
+                <img src="assets/images/projects/car-price-prediction.png" 
+                     alt="Car Price Prediction Project Preview" 
+                     class="project-banner-img is-hidden"
+                     loading="lazy"
+                     onerror="this.classList.add('is-hidden'); var ph = this.parentElement.querySelector('.project-banner-pattern'); if(ph) ph.classList.remove('is-hidden');"
+                     onload="this.classList.remove('is-hidden'); var ph = this.parentElement.querySelector('.project-banner-pattern'); if(ph) ph.classList.add('is-hidden');">
+                <div class="project-banner-pattern ml-pattern">
+                  <div class="banner-badge">Machine Learning</div>
+                  <div class="banner-code-visual">
+                    <code>regressor.fit(X_train, y_train)<br>evaluate(y_test, y_pred)</code>
+                  </div>
+                </div>
+                <div class="project-zoom-overlay">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                  </svg>
+                  <span>Click to Enlarge</span>
+                </div>
+              </div>
+              <div class="project-number-badge">PROJECT 01</div>
+            </div>
+
+            <div class="project-card-body">
+              <div class="project-category-meta">
+                <span>Machine Learning</span> • <span>Python</span> • <span>Scikit-learn</span> • <span>Google Colab</span>
+              </div>
+
+              <h3 class="project-title">Car Price Prediction</h3>
+
+              <p class="project-description">
+                A Machine Learning project developed to predict automotive market prices based on vehicle features. The project covers data preprocessing, exploratory analysis, regression model training, and model evaluation using Python, Scikit-learn, Pandas, and NumPy in Google Colab.
+              </p>
+
+              <div class="project-tech-stack">
+                <h4 class="tech-stack-label">Key Technologies:</h4>
+                <div class="tech-pills">
+                  <span class="tech-pill">Python</span>
+                  <span class="tech-pill">Pandas</span>
+                  <span class="tech-pill">NumPy</span>
+                  <span class="tech-pill">Scikit-learn</span>
+                  <span class="tech-pill">Data Preprocessing</span>
+                  <span class="tech-pill">Regression</span>
+                  <span class="tech-pill">Model Evaluation</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/RawanElsayed1/Car-Price-Prediction" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="github-project-1">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  <span>View Project on GitHub</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 02 -->
+          <article class="project-card reveal" id="project-sam-segmentation">
+            <div class="project-card-banner">
+              <div class="project-image-container" onclick="openImageModal('assets/images/projects/clothes-image-segmentation.png', 'Clothes Image Segmentation using SAM — Computer Vision Project')">
+                <img src="assets/images/projects/clothes-image-segmentation.png" 
+                     alt="Clothes Image Segmentation using SAM" 
+                     class="project-banner-img is-hidden"
+                     loading="lazy"
+                     onerror="this.classList.add('is-hidden'); var ph = this.parentElement.querySelector('.project-banner-pattern'); if(ph) ph.classList.remove('is-hidden');"
+                     onload="this.classList.remove('is-hidden'); var ph = this.parentElement.querySelector('.project-banner-pattern'); if(ph) ph.classList.add('is-hidden');">
+                <div class="project-banner-pattern cv-pattern">
+                  <div class="banner-badge">Computer Vision</div>
+                  <div class="banner-code-visual">
+                    <code>masks, scores = predictor.predict(<br>box=prompt_box, multimask_output=True)</code>
+                  </div>
+                </div>
+                <div class="project-zoom-overlay">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                  </svg>
+                  <span>Click to Enlarge</span>
+                </div>
+              </div>
+              <div class="project-number-badge">PROJECT 02</div>
+            </div>
+
+            <div class="project-card-body">
+              <div class="project-category-meta">
+                <span>Computer Vision</span> • <span>Python</span> • <span>SAM</span> • <span>OpenCV</span> • <span>Google Colab</span>
+              </div>
+
+              <h3 class="project-title">Clothes Image Segmentation using SAM</h3>
+
+              <p class="project-description">
+                A Computer Vision project utilizing Meta's Segment Anything Model (SAM) to segment clothing items from images. The project implements bounding-box prompting to guide segmentation and performs image preprocessing and visualization of mask overlays using OpenCV and Python in Google Colab.
+              </p>
+
+              <div class="project-tech-stack">
+                <h4 class="tech-stack-label">Key Technologies:</h4>
+                <div class="tech-pills">
+                  <span class="tech-pill">Meta Segment Anything Model (SAM)</span>
+                  <span class="tech-pill">OpenCV</span>
+                  <span class="tech-pill">Google Colab</span>
+                  <span class="tech-pill">Image Preprocessing</span>
+                  <span class="tech-pill">Image Segmentation</span>
+                  <span class="tech-pill">Visualization</span>
+                  <span class="tech-pill">Python</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/RawanElsayed1/Clothes-Segmentation-SAM" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="github-project-2">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  <span>View Project on GitHub</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRAINING & EDUCATION SECTION -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Education & Training</span>
+          <h2 class="section-title">Academic & Specialized Development</h2>
+          <p class="section-subtitle">Formal computer science study complemented by rigorous national and institute training</p>
+        </div>
+
+        <div class="edu-training-grid">
+          <!-- EDUCATION CARD -->
+          <div class="edu-card highlight-card reveal">
+            <div class="edu-card-badge">Academic Education</div>
+            <div class="edu-icon-wrapper">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+            </div>
+            <h3 class="edu-institution">Elsalhia Elgedida University</h3>
+            <h4 class="edu-faculty">Faculty of Computers and Information</h4>
+            <p class="edu-degree">Computer Science — Undergraduate Student</p>
+            <p class="edu-desc">
+              Building a strong academic foundation in Computer Science, programming, data, databases, algorithms, and artificial intelligence while applying theoretical knowledge through practical projects.
+            </p>
+            <div class="edu-status-tag active">Currently Enrolled</div>
+          </div>
+
+          <!-- TRAINING 1: DEPI -->
+          <div class="edu-card reveal">
+            <div class="edu-card-badge">Initiative Training</div>
+            <div class="edu-icon-wrapper">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+              </svg>
+            </div>
+            <h3 class="edu-institution">Digital Egypt Pioneers Initiative (DEPI)</h3>
+            <h4 class="edu-faculty">Ministry of Communications & Information Technology</h4>
+            <p class="edu-degree">Data Science Trainee</p>
+            <p class="edu-desc">
+              Developing practical skills in Data Science, data analysis, Machine Learning, and AI-related technologies.
+            </p>
+            <div class="edu-status-tag active">Currently Enrolled</div>
+          </div>
+
+          <!-- TRAINING 2: Creativa -->
+          <div class="edu-card reveal">
+            <div class="edu-card-badge">Technical Training</div>
+            <div class="edu-icon-wrapper">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 14 14"></polyline>
+              </svg>
+            </div>
+            <h3 class="edu-institution">Creativa</h3>
+            <h4 class="edu-faculty">Innovation Hubs</h4>
+            <p class="edu-degree">AI Level 2 Training</p>
+            <p class="edu-desc">
+              Completed AI-focused technical training as part of my professional development journey.
+            </p>
+            <div class="edu-status-tag completed">Completed</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS & COURSES SECTION -->
+    <section class="section certs-section" id="certifications">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Certifications & Courses</span>
+          <h2 class="section-title">Verified Courses & Continuous Learning</h2>
+          <p class="section-subtitle">Dedicated coursework and certificates in machine learning, deep learning, prompt engineering, and professional communication</p>
+        </div>
+
+        <div class="certs-grid">
+          <!-- Item 1: Coursework -->
+          <div class="cert-card reveal">
+            <div class="cert-thumb-box" onclick="openImageModal('assets/images/certificates/machine-learning-python.png', 'Machine Learning with Python — Coursera Coursework')">
+              <img src="assets/images/certificates/machine-learning-python.png" 
+                   alt="Machine Learning with Python Coursework Preview" 
+                   class="cert-img is-hidden"
+                   loading="lazy"
+                   onerror="this.classList.add('is-hidden'); var ph = this.parentElement.querySelector('.cert-icon-box'); if(ph) ph.classList.remove('is-hidden');"
+                   onload="this.classList.remove('is-hidden'); var ph = this.parentElement.querySelector('.cert-icon-box'); if(ph) ph.classList.add('is-hidden');">
+              <div class="cert-icon-box">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+              </div>
+              <div class="cert-hover-hint">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              </div>
+            </div>
+            <div class="cert-info">
+              <h3 class="cert-title">Machine Learning with Python</h3>
+              <p class="cert-issuer">Coursera</p>
+            </div>
+            <span class="cert-tag cert-tag-course">Coursework</span>
+          </div>
+
+          <!-- Item 2: Certificate -->
+          <div class="cert-card reveal">
+            <div class="cert-thumb-box" onclick="openImageModal('assets/images/certificates/deep-learning-keras.png', 'Introduction to Deep Learning & Neural Networks with Keras — Certificate')">
+              <img src="assets/images/certificates/deep-learning-keras.png" 
+                   alt="Introduction to Deep Learning & Neural Networks with Keras Certificate" 
+                   class="cert-img is-hidden"
+                   loading="lazy"
+                   onerror="this.classList.add('is-hidden'); var ph = this.parentElement.querySelector('.cert-icon-box'); if(ph) ph.classList.remove('is-hidden');"
+                   onload="this.classList.remove('is-hidden'); var ph = this.parentElement.querySelector('.cert-icon-box'); if(ph) ph.classList.add('is-hidden');">
+              <div class="cert-icon-box">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="8" r="7"></circle>
+                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+              </div>
+              <div class="cert-hover-hint">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              </div>
+            </div>
+            <div class="cert-info">
+              <h3 class="cert-title">Introduction to Deep Learning & Neural Networks with Keras</h3>
+              <p class="cert-issuer">Coursera</p>
+            </div>
+            <span class="cert-tag cert-tag-verified">Certificate</span>
+          </div>
+
+          <!-- Item 3: Certificate -->
+          <div class="cert-card reveal">
+            <div class="cert-thumb-box" onclick="openImageModal('assets/images/certificates/prompt-engineering.png', 'Prompt Engineering — 1 Million Prompters, Dubai Centre Certificate')">
+              <img src="assets/images/certificates/prompt-engineering.png" 
+                   alt="Prompt Engineering Certificate" 
+                   class="cert-img is-hidden"
+                   loading="lazy"
+                   onerror="this.classList.add('is-hidden'); var ph = this.parentElement.querySelector('.cert-icon-box'); if(ph) ph.classList.remove('is-hidden');"
+                   onload="this.classList.remove('is-hidden'); var ph = this.parentElement.querySelector('.cert-icon-box'); if(ph) ph.classList.add('is-hidden');">
+              <div class="cert-icon-box">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="8" r="7"></circle>
+                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+              </div>
+              <div class="cert-hover-hint">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              </div>
+            </div>
+            <div class="cert-info">
+              <h3 class="cert-title">Prompt Engineering</h3>
+              <p class="cert-issuer">1 Million Prompters — Dubai Centre</p>
+            </div>
+            <span class="cert-tag cert-tag-verified">Certificate</span>
+          </div>
+
+          <!-- Item 4: Certificate -->
+          <div class="cert-card reveal">
+            <div class="cert-thumb-box" onclick="openImageModal('assets/images/certificates/english-career-development.png', 'English for Career Development — MOOC Certificate')">
+              <img src="assets/images/certificates/english-career-development.png" 
+                   alt="English for Career Development Certificate" 
+                   class="cert-img is-hidden"
+                   loading="lazy"
+                   onerror="this.classList.add('is-hidden'); var ph = this.parentElement.querySelector('.cert-icon-box'); if(ph) ph.classList.remove('is-hidden');"
+                   onload="this.classList.remove('is-hidden'); var ph = this.parentElement.querySelector('.cert-icon-box'); if(ph) ph.classList.add('is-hidden');">
+              <div class="cert-icon-box">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="8" r="7"></circle>
+                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+              </div>
+              <div class="cert-hover-hint">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              </div>
+            </div>
+            <div class="cert-info">
+              <h3 class="cert-title">English for Career Development</h3>
+              <p class="cert-issuer">MOOC</p>
+            </div>
+            <span class="cert-tag cert-tag-verified">Certificate</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFESSIONAL DEVELOPMENT (TIMELINE) SECTION -->
+    <section class="section timeline-section" id="journey">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Professional Development</span>
+          <h2 class="section-title">Milestones & Technical Evolution</h2>
+          <p class="section-subtitle">Chronological progression of technical training, education, and applied project development</p>
+        </div>
+
+        <div class="timeline-container">
+          <div class="timeline-line"></div>
+
+          <!-- TIMELINE ITEM 01 -->
+          <div class="timeline-item reveal" data-step="01">
+            <div class="timeline-marker">
+              <span class="timeline-dot"></span>
+              <span class="timeline-number">01</span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <span class="timeline-category">Academic Milestone</span>
+                <h3 class="timeline-title">Computer Science Education</h3>
+                <h4 class="timeline-subtitle">Elsalhia Elgedida University</h4>
+                <p class="timeline-role">Computer Science Undergraduate</p>
+              </div>
+              <div class="timeline-focus-box">
+                <span class="focus-label">Focus:</span>
+                <p class="focus-text">Programming • Data Structures • Databases • Algorithms • AI Foundations</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- TIMELINE ITEM 02 -->
+          <div class="timeline-item reveal" data-step="02">
+            <div class="timeline-marker">
+              <span class="timeline-dot"></span>
+              <span class="timeline-number">02</span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <span class="timeline-category">Technical Training</span>
+                <h3 class="timeline-title">AI Training</h3>
+                <h4 class="timeline-subtitle">Creativa</h4>
+                <p class="timeline-role">AI Level 2 Training — Completed</p>
+              </div>
+              <div class="timeline-focus-box">
+                <span class="focus-label">Focus:</span>
+                <p class="focus-text">Artificial Intelligence • Machine Learning • Practical AI Skills</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- TIMELINE ITEM 03 -->
+          <div class="timeline-item reveal" data-step="03">
+            <div class="timeline-marker">
+              <span class="timeline-dot"></span>
+              <span class="timeline-number">03</span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <span class="timeline-category">Specialized Program</span>
+                <h3 class="timeline-title">Data Science Training</h3>
+                <h4 class="timeline-subtitle">Digital Egypt Pioneers Initiative</h4>
+                <p class="timeline-role">Data Science Trainee — Currently Enrolled</p>
+              </div>
+              <div class="timeline-focus-box">
+                <span class="focus-label">Focus:</span>
+                <p class="focus-text">Data Analysis • Machine Learning • Data Science • AI Technologies</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- TIMELINE ITEM 04 -->
+          <div class="timeline-item reveal" data-step="04">
+            <div class="timeline-marker">
+              <span class="timeline-dot"></span>
+              <span class="timeline-number">04</span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <span class="timeline-category">Applied Execution</span>
+                <h3 class="timeline-title">Hands-on AI Projects</h3>
+                <h4 class="timeline-subtitle">Independent Projects</h4>
+                <p class="timeline-role">Machine Learning & Computer Vision</p>
+              </div>
+              <div class="timeline-focus-box">
+                <span class="focus-label">Focus:</span>
+                <p class="focus-text">Car Price Prediction • Image Segmentation • Scikit-learn • SAM • OpenCV</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Services</span>
+          <h2 class="section-title">What I Can Help Build</h2>
+          <p class="section-subtitle">Practical capabilities tailored for academic collaborations, internships, and early-career projects</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- SERVICE 01 -->
+          <div class="service-card reveal">
+            <div class="service-number">01</div>
+            <div class="service-icon-box">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Machine Learning Projects</h3>
+            <p class="service-desc">
+              Developing beginner-to-intermediate Machine Learning solutions including data preprocessing, model training, and evaluation.
+            </p>
+          </div>
+
+          <!-- SERVICE 02 -->
+          <div class="service-card reveal">
+            <div class="service-number">02</div>
+            <div class="service-icon-box">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Data Analysis</h3>
+            <p class="service-desc">
+              Exploring, cleaning, analyzing, and visualizing datasets using Python and common Data Science libraries.
+            </p>
+          </div>
+
+          <!-- SERVICE 03 -->
+          <div class="service-card reveal">
+            <div class="service-number">03</div>
+            <div class="service-icon-box">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                <circle cx="12" cy="13" r="4"></circle>
+              </svg>
+            </div>
+            <h3 class="service-title">Computer Vision Projects</h3>
+            <p class="service-desc">
+              Building practical Computer Vision projects using Python, OpenCV, and modern AI models.
+            </p>
+          </div>
+
+          <!-- SERVICE 04 -->
+          <div class="service-card reveal">
+            <div class="service-number">04</div>
+            <div class="service-icon-box">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3 class="service-title">AI & Python Projects</h3>
+            <p class="service-desc">
+              Developing practical Python-based AI projects for learning, experimentation, and real-world problem solving.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEARNING JOURNEY SECTION -->
+    <section class="section learning-journey-section" id="learning-journey">
+      <div class="container">
+        <div class="learning-journey-wrapper reveal">
+          <div class="section-header">
+            <span class="section-tag">Learning Journey</span>
+            <h2 class="section-title">My Learning Journey</h2>
+          </div>
+
+          <div class="learning-journey-text">
+            <p>
+              My journey in technology started with building a foundation in programming and Computer Science. I then expanded my interests toward Artificial Intelligence, Machine Learning, Computer Vision, and Data Science through academic study, structured training, and hands-on projects.
+            </p>
+            <p>
+              I believe meaningful technical growth comes from combining learning with practice. For that reason, I continuously experiment with new technologies, build projects, and focus on understanding the concepts behind the tools I use.
+            </p>
+          </div>
+
+          <div class="learning-focus-container">
+            <p class="focus-intro-text">Currently, I am strengthening my knowledge in:</p>
+            <div class="journey-pills-row">
+              <span class="journey-pill"><span class="pill-sparkle">✦</span> Artificial Intelligence</span>
+              <span class="journey-pill"><span class="pill-sparkle">✦</span> Machine Learning</span>
+              <span class="journey-pill"><span class="pill-sparkle">✦</span> Deep Learning</span>
+              <span class="journey-pill"><span class="pill-sparkle">✦</span> Computer Vision</span>
+              <span class="journey-pill"><span class="pill-sparkle">✦</span> Data Science</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAREER OBJECTIVE SECTION -->
+    <section class="section career-objective-section" id="objective">
+      <div class="container">
+        <div class="objective-card reveal">
+          <div class="objective-bg-grid"></div>
+          <div class="objective-content">
+            <div class="objective-badge">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <circle cx="12" cy="12" r="6"></circle>
+                <circle cx="12" cy="12" r="2"></circle>
+              </svg>
+              <span>Career Objective</span>
+            </div>
+
+            <h2 class="objective-title">Vision & Professional Ambition</h2>
+
+            <blockquote class="objective-quote">
+              "My goal is to grow into a professional AI Engineer capable of designing and developing practical, data-driven intelligent solutions. I aim to strengthen my expertise in Machine Learning, Deep Learning, Computer Vision, and Data Science while gaining real-world experience through internships, projects, freelance work, and collaborative technical environments."
+            </blockquote>
+
+            <div class="objective-author">
+              <span class="author-name">Rawan El Sayed Mohamed</span>
+              <span class="author-role">AI &amp; Data Science Student | Aspiring AI Engineer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOFT SKILLS SECTION -->
+    <section class="section soft-skills-section" id="soft-skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Soft Skills</span>
+          <h2 class="section-title">Interpersonal & Professional Attributes</h2>
+          <p class="section-subtitle">Essential competencies driving collaborative success and continuous self-improvement</p>
+        </div>
+
+        <div class="soft-skills-grid">
+          <div class="soft-skill-tag reveal">
+            <span class="soft-skill-icon">✓</span>
+            <span>Problem Solving</span>
+          </div>
+          <div class="soft-skill-tag reveal">
+            <span class="soft-skill-icon">✓</span>
+            <span>Analytical Thinking</span>
+          </div>
+          <div class="soft-skill-tag reveal">
+            <span class="soft-skill-icon">✓</span>
+            <span>Critical Thinking</span>
+          </div>
+          <div class="soft-skill-tag reveal">
+            <span class="soft-skill-icon">✓</span>
+            <span>Communication</span>
+          </div>
+          <div class="soft-skill-tag reveal">
+            <span class="soft-skill-icon">✓</span>
+            <span>Teamwork & Collaboration</span>
+          </div>
+          <div class="soft-skill-tag reveal">
+            <span class="soft-skill-icon">✓</span>
+            <span>Presentation Skills</span>
+          </div>
+          <div class="soft-skill-tag reveal">
+            <span class="soft-skill-icon">✓</span>
+            <span>Self-Learning</span>
+          </div>
+          <div class="soft-skill-tag reveal">
+            <span class="soft-skill-icon">✓</span>
+            <span>Time Management</span>
+          </div>
+          <div class="soft-skill-tag reveal">
+            <span class="soft-skill-icon">✓</span>
+            <span>Adaptability</span>
+          </div>
+          <div class="soft-skill-tag reveal">
+            <span class="soft-skill-icon">✓</span>
+            <span>Creativity & Innovation</span>
+          </div>
+          <div class="soft-skill-tag reveal">
+            <span class="soft-skill-icon">✓</span>
+            <span>Negotiation</span>
+          </div>
+          <div class="soft-skill-tag reveal">
+            <span class="soft-skill-icon">✓</span>
+            <span>Professional Ethics</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Let's Connect</h2>
+          <p class="section-subtitle">
+            I'm always interested in learning opportunities, internships, freelance projects, and collaborations related to Artificial Intelligence, Machine Learning, Data Science, and Computer Vision.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Column -->
+          <div class="contact-info-col reveal">
+            <h3 class="contact-col-title">Contact Information</h3>
+            <p class="contact-col-desc">
+              Feel free to reach out directly via email or connect with me through professional platforms.
+            </p>
+
+            <div class="contact-methods-list">
+              <!-- Email -->
+              <a href="mailto:rawan.elsayed448@gmail.com" class="contact-method-card" id="contact-email-link">
+                <div class="method-icon-box">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="method-content">
+                  <span class="method-label">Direct Email</span>
+                  <span class="method-value">rawan.elsayed448@gmail.com</span>
+                </div>
+              </a>
+
+              <!-- GitHub -->
+              <a href="https://github.com/RawanElsayed1" target="_blank" rel="noopener noreferrer" class="contact-method-card" id="contact-github-link">
+                <div class="method-icon-box">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                </div>
+                <div class="method-content">
+                  <span class="method-label">GitHub Repository</span>
+                  <span class="method-value">github.com/RawanElsayed1</span>
+                </div>
+              </a>
+
+              <!-- LinkedIn -->
+              <a href="https://www.linkedin.com/in/rawan-elsayed-7ab100371" target="_blank" rel="noopener noreferrer" class="contact-method-card" id="contact-linkedin-link">
+                <div class="method-icon-box">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                </div>
+                <div class="method-content">
+                  <span class="method-label">LinkedIn Profile</span>
+                  <span class="method-value">linkedin.com/in/rawan-elsayed-7ab100371</span>
+                </div>
+              </a>
+
+              <!-- YouTube (Placeholder) -->
+              <div class="contact-method-card placeholder-item" title="YouTube Profile (Placeholder)">
+                <div class="method-icon-box">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                  </svg>
+                </div>
+                <div class="method-content">
+                  <span class="method-label">YouTube</span>
+                  <span class="method-value">YouTube — Placeholder</span>
+                </div>
+                <span class="placeholder-badge">Placeholder</span>
+              </div>
+
+              <!-- Facebook (Placeholder) -->
+              <div class="contact-method-card placeholder-item" title="Facebook Profile (Placeholder)">
+                <div class="method-icon-box">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                  </svg>
+                </div>
+                <div class="method-content">
+                  <span class="method-label">Facebook</span>
+                  <span class="method-value">Facebook — Placeholder</span>
+                </div>
+                <span class="placeholder-badge">Placeholder</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form Column -->
+          <div class="contact-form-col reveal">
+            <div class="form-wrapper">
+              <h3 class="form-header-title">Send a Message</h3>
+              <p class="form-header-subtitle">Fill in the details below to start a conversation.</p>
+
+              <form id="contact-form" class="contact-form" novalidate>
+                <div class="form-group">
+                  <label for="contact-name" class="form-label">Your Name <span class="required">*</span></label>
+                  <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. Sarah Jenkins" required>
+                  <span class="error-msg" id="name-error">Please enter your name.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-email" class="form-label">Your Email <span class="required">*</span></label>
+                  <input type="email" id="contact-email" name="email" class="form-input" placeholder="e.g. sarah@example.com" required>
+                  <span class="error-msg" id="email-error">Please enter a valid email address.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-subject" class="form-label">Subject <span class="required">*</span></label>
+                  <input type="text" id="contact-subject" name="subject" class="form-input" placeholder="e.g. Internship Opportunity / Collaboration" required>
+                  <span class="error-msg" id="subject-error">Please provide a subject.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-message" class="form-label">Message <span class="required">*</span></label>
+                  <textarea id="contact-message" name="message" class="form-textarea" rows="5" placeholder="Write your message here..." required></textarea>
+                  <span class="error-msg" id="message-error">Please enter your message.</span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-submit" id="btn-submit-message">
+                  <span>Send Message</span>
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+
+                <div class="form-notice">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="16" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                  </svg>
+                  <span>Note: Form submission requires a backend or external form service.</span>
+                </div>
+
+                <div id="form-feedback" class="form-feedback" role="alert" aria-live="polite"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="footer-logo">
+            <span class="logo-bracket">&lt;</span>
+            <span class="logo-name">Rawan</span>
+            <span class="logo-dot">.ai</span>
+            <span class="logo-bracket">&gt;</span>
+          </a>
+          <h3 class="footer-author">Rawan El Sayed Mohamed</h3>
+          <p class="footer-role">AI &amp; Data Science Student | Aspiring AI Engineer</p>
+          <p class="footer-motto">"Building skills. Creating projects. Growing with AI."</p>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#journey">Journey</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social-col">
+          <h4 class="footer-heading">Connect</h4>
+          <ul class="footer-social-list">
+            <li>
+              <a href="https://github.com/RawanElsayed1" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="GitHub Profile">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+                <span>GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/rawan-elsayed-7ab100371" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="LinkedIn Profile">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <span class="footer-social-link placeholder-link" title="YouTube Profile (Placeholder)">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                </svg>
+                <span>YouTube <small>(Placeholder)</small></span>
+              </span>
+            </li>
+            <li>
+              <span class="footer-social-link placeholder-link" title="Facebook Profile (Placeholder)">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+                <span>Facebook <small>(Placeholder)</small></span>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; 2026 Rawan El Sayed Mohamed. All rights reserved.
+        </p>
+
+        <a href="#home" class="back-to-top-footer" id="footer-back-to-top" aria-label="Back to Top of Page">
+          <span>&uarr; Back to Top</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button id="floating-back-to-top" class="floating-back-to-top" aria-label="Back to Top" title="Back to Top">
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
+  </button>
+
+  <!-- Image Preview Lightbox Modal -->
+  <div id="image-modal" class="image-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+    <div class="modal-container">
+      <button class="modal-close" id="modal-close" aria-label="Close image preview">&times;</button>
+      <div class="modal-content">
+        <img id="modal-image" src="" alt="Enlarged Preview" class="modal-img">
+        <div id="modal-caption" class="modal-caption"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vanilla JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
